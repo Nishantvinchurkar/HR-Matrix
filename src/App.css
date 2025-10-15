@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  .card {
+    margin-bottom: 1rem;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+.mapboxgl-canvas {
+  width: 100% !important;
+}
